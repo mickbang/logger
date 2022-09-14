@@ -3,7 +3,6 @@ apply plugin: 'kotlin-android'
 
 android {
   compileSdkVersion rootProject.ext.compileSdkVersion
-  buildToolsVersion rootProject.ext.buildToolsVersion
 
   defaultConfig {
     minSdkVersion rootProject.ext.minSdkVersion
@@ -30,4 +29,4 @@ dependencies {
   testImplementation deps.kotlin
 }
 
-apply from: rootProject.file('gradle/maven_push.gradle')
+//apply from: rootProject.file('gradle/maven_push.gradle')
